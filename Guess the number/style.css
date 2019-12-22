@@ -1,0 +1,90 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    max-width: 850px;
+    margin: 0px auto;
+    font-family: exo;
+}
+header{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 3px solid black;
+}
+
+/*section start*/
+.paras{
+    background-color: silver;
+    border-bottom: 3px solid black;
+}
+.paras h2{
+    padding: 10px 100px;
+    background-color: white;
+    text-align: center;
+}
+.paras h4{
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.paras #normal{
+    font-weight: normal;
+}
+.paras #boldme{
+    font-weight: bold;
+    text-align: justify;
+}
+.paras #boldme #bld{
+    color: red;
+}
+.paras h3{
+    text-align: center;
+    font-family: lato;
+    padding: 30px;
+}
+/*section end*/
+
+/*input type start*/
+form{
+    padding: 10px;
+    background-color: teal;
+    text-align: center;
+}
+form input[type="text"]{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+form input[type="text"]::placeholder{
+    text-align: center;
+    color: teal;
+}
+form input[type="text"]:focus{
+    outline: none;
+}
+form input[type="text"]:hover{
+    border: 2px solid black;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+form button[type="button"]{
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+form button[type="button"]:focus{
+    outline: none;
+}
+form button[type="button"]:hover{
+    background-color: black;
+    color: darkred;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+/*input type end*/

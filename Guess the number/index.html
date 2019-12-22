@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--html start-->
+<html>
+    <!--head start-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Js">
+        <meta name="keywords" content="Html, Css, Js">
+        <meta name="author" content="Ranjan practicing Js">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--css file start-->
+        <link rel="stylesheet" href="style.css"/>
+        <!--css file end-->
+
+        <title>Home</title>
+
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bree+Serif|Exo|Exo+2|Lato|Mansalva|Playfair+Display&display=swap" rel="stylesheet">
+        <!--google fonts-->
+
+        <!--fontawesome icon start-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <!--fontawesome icon end-->
+    </head>
+    <!--head end-->
+
+    <!--body start-->
+    <body>
+        <!--main start-->
+        <main>
+            <!--article start-->
+            <article>
+                <!--header start-->
+                <header>
+                    <h3></h3>
+                </header>
+                <!--header end-->
+
+                <!--Para start-->
+                <section class="paras">
+                    <h2>Guess the Number???</h2>
+                    <h4 id="normal">Enter the number between 1 to 100</h4>
+                    <h4 id="boldme"><span id="bld">NOTE: &nbsp;</span>You'll be given 10 tries to guess the numbers
+                    , unfortunately if you're ended-up with incorrect number, just restart the game. But try finding, it's interesting</h4>
+                    <h3>Happy Guessing :-)</h3>
+                </section>
+                <!--Para end-->
+
+                <!--input field start-->
+                <form>
+                    <label for="vals">Enter the value : </label>
+                    <input type="text" id="vals" class="input_field" name="values" placeholder="All the best!" />
+                    <button type="button" class="ok_button" name="btn">Ok</button>
+                </form>
+                <!--input field end-->
+
+                <!--3 para start-->
+                <section class="main_container">
+                    <p class="previous_guess"></p>
+                    <p class="guess_right_or_wrong"></p>
+                    <p class="low_or_high"></p>
+                </section>
+                <!--3 para end-->
+            </article>
+            <!--article end-->
+        </main>
+        <!--main end-->
+        
+        <!--js file start-->
+        <!--the defer will tells the browser to continue download
+        the html page once it reached script tag, so both
+        the script and html pages will simultaneously download
+        , also defer works only for external js file-->
+            <script src="scripts/script.js" defer></script>
+        <!--js file end-->
+
+
+    </body>
+    <!--body end-->
+
+    </html>
+    <!--html end-->
