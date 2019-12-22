@@ -1,2 +1,2 @@
-# Javascript-----Find-the-random-number
+# Javascript > Find-the-random-number
 Random Number Game
